@@ -35,4 +35,4 @@ As seen above, the Easy Ensemble (AdaBoost) model produced the highest metrics f
 
 A model with a 92% recall, can be expected to predict defaulting on credit card payments 92% of the time. However, it trades off this high recall with low precision. In other words, althoguh it can predict positivity 92% of the time, there is only a 9% chance that this prediction is actually correct. This model therefore has a **high false positivity rate**. 
 
-Functionally, this is not useful for a bank to predict credit card defaulting from a customer-service perspective. From a bank's perspective, they would have to investigate a large majority of cases, but would predict those who will defualt 92% of the time. The ultimate decision as to the extent of using this model would be up to the individual organization.
+Functionally, this is not useful for a bank to predict credit card defaulting from a customer-service perspective. From a bank's perspective, they would have to investigate a large majority of cases, but would predict those who will default 92% of the time. The ultimate decision as to the extent of using this model would be up to the individual organization.
